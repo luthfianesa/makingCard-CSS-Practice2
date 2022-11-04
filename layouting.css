@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+}
+
+/* Edit Div Utamanya */
+.card {
+  border: solid black 1px;
+  width: 380px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  margin: 8px;
+}
+
+/* Div Gambar */
+.card-img {
+  position: relative;
+}
+
+.card-img img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+/* Div Teks */
+.card-txt {
+  padding: 16px;
+}
+
+.card-txt h1 {
+  padding-bottom: 8px;
+  font-size: 24px;
+}
+
+.address {
+  color: gray;
+  font-size: 16px;
+}
+
+.cars-availability {
+  color: black;
+  font-size: 14px;
+}
+
+.cars-availability span {
+  color: black;
+  font-weight: 700;
+}
+
+/* Selector :nth-child() */
+/* Digunakan untuk styling teks dengan tag yang sama dan banyak */
+.card-txt p:nth-child(2) {
+  padding-bottom: 20px;
+}
+
+.heading {
+  background-color: orange;
+  padding: 4px 16px 4px 8px;
+  position: absolute;
+  top: 8px;
+  left: 5px;
+  border: solid black 1px;
+  border-bottom-right-radius: 22px;
+}
+
+.heading p {
+  color: white;
+}
